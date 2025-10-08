@@ -1,0 +1,9 @@
+name: My Workflow
+on:
+  push:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show the Hello World msg
+        run: echo "Hello World"
